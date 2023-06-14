@@ -123,6 +123,7 @@ button{
 
 @media (min-width:577px)
 {
+    
     .container{
         display: grid;
         text-align: center;
@@ -170,7 +171,7 @@ button{
     margin-left: -20px;
     height: 200px;
     font-size: 0.9vw;
-    width: 100%;
+    width:100%;
 }
 .main{
     grid-area: main;
