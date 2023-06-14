@@ -45,6 +45,7 @@ h2{
     align-items: center;
     border-bottom: 10px;
     border-top: 30px;
+   
 }
 section{
     display: flex;
@@ -80,8 +81,8 @@ button{
 }
 
  select {
-    height: 50%;
-    width: 70%;
+    height: 100px;
+    width:70%;
  }
 
 .grid_item9{
@@ -191,6 +192,7 @@ button{
     grid-area: footer; 
     height: 300%;
     font-size: 0.9vw;
+    width: 100%;
 }
 
 }
