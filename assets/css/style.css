@@ -81,7 +81,7 @@ button{
 }
 
  select {
-    height: 100px;
+    height: 90px;
     width:70%;
  }
 
@@ -129,9 +129,8 @@ button{
         text-align: center;
         align-items: center;
         min-height: 100vh;
-        gap: 20px;
-        grid-template-columns: 20% 1fr 1fr 1fr 1fr;
-       
+        grid-template-columns: repeat(5, 1fr) ;
+        grid-template-rows: 200px 1fr 1fr 150px;
       grid-template-areas: 
       "header aside aside aside aside"
       "header main main main main"
@@ -157,6 +156,7 @@ button{
     flex-direction: column;
     justify-content: flex-start;
     height: 100%;
+    
 }
 .header_texto{
     width: 550px;
@@ -168,18 +168,48 @@ button{
 }
 .aside{
     grid-area: aside;
-    margin-left: -20px;
     height: 200px;
     font-size: 0.9vw;
     width:100%;
 }
 .main{
     grid-area: main;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display:grid;
     height: 100%;
-    margin-top: 100px;
-
+    gap: 10px;
+    
+}
+.grid_item1{
+    grid-row: 1;
+    grid-column: 1;
+}
+.grid_item2{
+    grid-row: 1;
+    grid-column: 2;
+}
+.grid_item3{
+    grid-row: 1;
+    grid-column: 3;
+}
+.grid_item4{
+    grid-row: 1;
+    grid-column: 4;
+}
+.grid_item5{
+    grid-row: 2;
+    grid-column: 1;
+}
+.grid_item6{
+    grid-row: 2;
+    grid-column: 2;
+}
+.grid_item7{
+    grid-row: 2;
+    grid-column: 3;
+}
+.grid_item8{
+    grid-row: 2;
+    grid-column: 4;
 }
 .item{
     width: 550px;
